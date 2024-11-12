@@ -83,6 +83,11 @@ main {
 }
 .main-highlight {
   font-weight: bold;
+  position: relative;
+}
+.border-b {
+  position: absolute;
+  bottom: -16px;
 }
 .main-desc {
   color: #96989a;
