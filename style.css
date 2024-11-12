@@ -1,48 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --common-padding : 0 8vw;
-    --primary-brand-color: #C2F578;
-    --primary-text-color : #000;
-    font-family: Arial, Helvetica, sans-serif;
+:root {
+  --common-padding: 0 8vw;
+  --primary-brand-color: #c2f578;
+  --primary-text-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* primary color #C2F578 */
 
-
 /* header */
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 12vh;
-    padding: var(--common-padding);
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  padding: var(--common-padding);
 }
 
-.header-left{
-    display: flex;
-    align-items: center;
-    gap: 6vw;
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 6vw;
 }
 
-.header-left a{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: var(--primary-text-color);
-} 
-.header-left a svg{
-    margin-right: 24px;
+.header-left a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-text-color);
 }
-.header-left  a.courses{
-    color: #3E3E3E;
+.header-left a svg {
+  margin-right: 24px;
 }
-.header-left .logo-container{
-    font-size: 28px;
-    font-weight: 700;
+.header-left a.courses {
+  color: #3e3e3e;
+}
+.header-left .logo-container {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-right button {
+  border: none;
+  background: black;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header-right button:hover {
+  background-color: #191919;
+}
+.signup-btn {
+  margin-right: 24px;
 }
