@@ -104,6 +104,12 @@ main {
   width: 50%;
   display: flex;
   justify-content: flex-end;
+  background: rgb(194, 245, 120);
+  background: radial-gradient(
+    circle,
+    rgba(194, 245, 120, 1) 0%,
+    rgba(148, 187, 233, 0) 52%
+  );
 }
 .main-right img {
   width: 90%;
