@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --common-padding : 0 8vw;
+    --primary-brand-color: #C2F578;
+    --primary-text-color : #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* primary color #C2F578 */
+
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: var(--common-padding);
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+}
+
+.header-left a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-text-color);
+} 
+.header-left a svg{
+    margin-right: 24px;
+}
+.header-left  a.courses{
+    color: #3E3E3E;
+}
+.header-left .logo-container{
+    font-size: 28px;
+    font-weight: 700;
+}
